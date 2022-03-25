@@ -54,7 +54,7 @@ const profileData = {
   projects: [
     {
       title: 'ONLINE JOB PORTAL SYSTEM',
-      duration: 'Mar - Nov 2022',
+      duration: 'Jan - Feb 2022',
       link: 'https://bit.ly/si-01',
       desc: `An interactive application that acts as a bridge
       between a job seeker and a job recruiter who works for the company. Here job
@@ -72,7 +72,7 @@ const profileData = {
     },
     {
       title: 'POPULATION GRAPH',
-      duration: 'Apr - Jul 2021',
+      duration: 'Sep - Sep 2021',
       link: 'https://bit.ly/sii-03',
       desc: `Small project done while learning MERN. A person can be able to
       change menus of countries which he wants to know and able to touch them and know
@@ -81,7 +81,7 @@ const profileData = {
     },
     {
       title: 'COVID-19-TRACKER',
-      duration: 'Apr - Jul 2021',
+      duration: 'Oct - Oct 2021',
       link: 'http://bit.ly/si-4',
       desc: `Mini project did while learning MERN. A person able to change
       the menu of countries which he wants to know and able to touch the map and see the
@@ -116,16 +116,16 @@ const profileData = {
     {
       desc: `Code4All a group of young enthusiasts of UIT RGPV 24-hour Codeathon, scored 105
       and got 1st place.`,
-      date: 'Aug 2021'
+      date: 'Dec 2021'
     },
     {
       desc: `CodeMania A 24-hour Codeathon scored 300 marks and got 3rd place.`,
-      date: 'Jul 2021'
+      date: 'Nov 2021'
     },
     {
       desc: `Code Drizzle 1.0, Challenge Over conducted by Developer Student Circuit KIET and got
       9th place.`,
-      date: 'Aug 2021'
+      date: 'Sep 2021'
     },
     {
       desc: `July Challenge 2021 Division 3 (Rated) conducted by CODECHEF. I scored 520/1000
