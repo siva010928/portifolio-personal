@@ -4,14 +4,14 @@ const setTitle = data => {
   document.title = `${data.title} | ${data.name}`;
   document.querySelector('#profileName').innerHTML = data.name;
   document.querySelector('#intro').innerHTML = data.about.intro;
-  // document.querySelector('#profileSubTitle').innerHTML = data.sub_title;
-  // // document.querySelector('#aboutIntro').innerHTML = data.about.intro;
+  document.querySelector('#profileSubTitle').innerHTML = data.sub_title;
+  document.querySelector('#aboutIntro').innerHTML = data.about.intro;
   document.querySelector('#contactEmail').innerHTML = data.about.contact.email;
   document
     .querySelector('#contactEmail')
     .setAttribute('href', `mailto:${data.about.contact.email}`);
   document.querySelector('#contactPhone').innerHTML = data.about.contact.phone;
-  // document.querySelector('#contactAddress').innerHTML =data.about.contact.address; 
+  document.querySelector('#contactAddress').innerHTML =data.about.contact.address; 
 };
 
 const setLinks = links => {
@@ -198,10 +198,10 @@ const setExperience = experiences => {
     expTitle.innerHTML = `${exper.title}, (${exper.date})`;
     expSub.appendChild(expTitle);
 
-    // const expDura = document.createElement('span');
-    // expDura.className = 'ach-duration';
-    // expDura.innerHTML = exper.date;
-    // expSub.appendChild(expDura);
+    const expDura = document.createElement('span');
+    expDura.className = 'ach-duration';
+    expDura.innerHTML = exper.date;
+    expSub.appendChild(expDura);
 
     expItem.appendChild(expSub);
 
@@ -311,7 +311,7 @@ const setCatagoryHeader = title => {
   // Call functions to load profile
   setTitle(profileData);
   setLinks(profileData.links);
-  // setExperience(profileData.experiences);
+  setExperience(profileData.experiences);
   setProjects(profileData.projects);
   setSkills(profileData.skills);
   setEducation(profileData.education);
