@@ -1,16 +1,17 @@
 const profileData = {
   title: 'Profile',
   name: 'Siva Prakash',
-  sub_title: 'Software Developer',
+  sub_title: 'Software Engineer.',
   about: {
     intro: `Hello! I am Siva Prakash.I'm focused, dedicated, hard-working and willing to learn in a changing and challenging environment.`,
     contact: {
       email: 'siva010928@gmail.com',
       phone: '+91-9344015965',
-      address: 'New York, USA'
+      address: 'Coimbatore, India.'
     }
   },
   links: [
+    { title: 'LinkedIn', src: 'https://www.linkedin.com/in/siva010928/' },
     { title: 'Leetcode', src: 'https://leetcode.com/siva010928' },
     { title: 'GitHub', src: 'https://github.com/siva010928' },
     { title: 'CodeChef', src: 'https://codechef.com/users/siva010928'}
@@ -38,7 +39,15 @@ const profileData = {
   skills: [
     {
       category: 'Languages',
-      topics: ['C', 'C++', 'Java', 'SQL','NoSQL']
+      topics: ['C', 'C++', 'Java', 'Python/Django', 'HTML/CSS', 'JavaScript', 'SQL, NoSQL']
+    },
+    {
+      category: 'Technologies',
+      topics: ['Postman', 'Jmeter', 'pgAdmin', 'PyCharm', 'MySQL workbench', 'VS Code', 'Git']
+    },
+    {
+      category: 'Area Of Interest',
+      topics: ['Competitive Programming', 'Cloud-Technology']
     },
     {
       category: 'Platforms',
@@ -46,69 +55,52 @@ const profileData = {
         'Windows',' Linux (Ubuntu)'
       ]
     },
-    {
-      category: 'Tools',
-      topics: ['Visual Studio Code', 'Android Studio','MySql workbench','Mongodb Atlas']
-    }
   ],
   projects: [
     {
-      title: 'ONLINE JOB PORTAL SYSTEM',
-      duration: 'Jan - Feb 2022',
-      link: 'https://bit.ly/si-01',
-      desc: `An interactive application that acts as a bridge
-      between a job seeker and a job recruiter who works for the company. Here job
-      seekers can search, filter, view the job, and apply for a job. Also, they can update
-      their profile and post a review for a company they work for. Recruiters can post,
-      search, filter, edit a job, join a company as a recruiter, search, filter, and review
-      candidates to update their applications.`
+      title: 'Bark API Integration and Containerized Deployment Project. | FastApi, Docker',
+      duration: 'Jun 2023',
+      link: 'https://github.com/siva010928/Stable-Diffusion',
+      desc: `The project aims to enhance the suno-ai/bark repository’s capabilities, a text-to-audio transformer model, by creating a user-friendly interface through the Playground and convenient API access. A Dockerfile has been developed to simplify deployment, 
+             enabling the hosting of this model within a container on our server`
     },
     {
-      title: 'VOICE PRESCRIPTION',
-      duration: 'Apr - Jul 2020',
-      link: 'https://bit.ly/si-02',
-      desc: `A problem statement of SIH (2020) Technology Bucket: Health
-      Care and Bio-Medical Devices Category: Problem Code: AP63`
+      title: 'Job Hive | Java-OOPS, MySQL',
+      duration: 'May 2022',
+      link: 'https://github.com/siva010928/Job-Portal',
+      desc: `An interactive application that acts as a bridge between a job seeker and a job recruiter who works for the company.`
     },
     {
-      title: 'POPULATION GRAPH',
-      duration: 'Sep - Sep 2021',
-      link: 'https://bit.ly/sii-03',
-      desc: `Small project done while learning MERN. A person can be able to
-      change menus of countries which he wants to know and able to touch them and know
-      which year the population gets increased by which amount all details have been
-      depicted.`
+      title: 'Natours | Express JS, HTML, CSS, MongoDB',
+      duration: 'Jan 2022',
+      link: 'https://github.com/siva010928/Natours',
+      desc: `A tour based web App during course of web development.`
     },
     {
-      title: 'COVID-19-TRACKER',
-      duration: 'Oct - Oct 2021',
-      link: 'http://bit.ly/si-4',
-      desc: `Mini project did while learning MERN. A person able to change
-      the menu of countries which he wants to know and able to touch the map and see the
-      conditions and size of the circle defines how many people were affected.`
+      title: 'SparchScript | PHP, HTML, CSS, Bootstrap, JQuery, Javascript, MySQL',
+      duration: 'Dec 2021',
+      link: 'https://github.com/siva010928/Voice-Prescription',
+      desc: `A voice based application built alternative to the traditional hand-written prescriptions.`
     }
-
-
   ],
   experiences: [
     {
-      organization: 'World War 2',
-      title: `General`,
-      date: '1941 - 1945',
+      organization: 'Lokal App, Bangalore',
+      title: `Software Development Engineer Intern`,
+      date: 'Feb 2023 – June 2023',
       details: [
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+        `Experienced in developing Django-based REST-APIs with proficiency in ORM in Django with PostgreSQL, and Elastic Search Engine Tool and in writing unit tests to ensure the quality and functionality of end-to-end system. Specialized in building microservices for Real Estate, Jobs, and News domains.`,
+        `Experienced in leveraging Sentry to proactively identify and address bugs, resulting in enhanced application functionality and performance.`,
+        `Gained hands-on experience in deploying applications on AWS using Jenkins pipelines and Kubernetes (K8s), ensuring efficient deployment and management in a cloud environment.`
       ]
     },
     {
-      organization: 'World War 1',
-      title: `Soldier`,
-      date: '1914 - 1918',
+      organization: 'Zoho Corporation Private Limited, Chennai',
+      title: `Software Development Engineer Intern`,
+      date: 'May 2022 – July 2022',
       details: [
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+        `Developed and maintained a robust e-commerce website utilizing Java, Angular, and REST API technologies. Implemented features and functionality to enhance user experience and drive business growth.`,
+        `Utilized MySQL and Elastic Search Engine Tool to optimize data management and search capabilities, ensuring efficient retrieval and organization of information for the e-commerce platform.`
       ]
     }
   ],
@@ -125,7 +117,7 @@ const profileData = {
     {
       desc: `Code Drizzle 1.0, Challenge Over conducted by Developer Student Circuit KIET and got
       9th place.`,
-      date: 'Sep 2021'
+      date: 'Nov 2021'
     },
     {
       desc: `July Challenge 2021 Division 3 (Rated) conducted by CODECHEF. I scored 520/1000
